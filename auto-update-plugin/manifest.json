@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "侧边栏垂直标签页",
+  "description": "侧边栏垂直标签页 test",
+  "version": "1.0.1",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://*/*", "http://localhost/*"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "update_url": "https://github.com/wa815774/auto-update-chrome-plugin/blob/master/auto-update-server/extension-updates.xml"
+}

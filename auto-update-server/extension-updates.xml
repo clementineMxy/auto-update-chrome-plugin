@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/response'>
+  <app appid='fdphehdaihiemajjaodeohbeokpgcedi'>
+    <updatecheck codebase='https://github.com/wa815774/auto-update-chrome-plugin/blob/master/auto-update-server/auto-update-plugin' version='1.0.1' />
+  </app>
+</gupdate>
