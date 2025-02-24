@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "侧边栏垂直标签页",
   "description": "侧边栏垂直标签页 test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "action": {
     "default_popup": "popup.html"
   },
