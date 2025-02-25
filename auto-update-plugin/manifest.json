@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "侧边栏垂直标签页",
-  "description": "侧边栏垂直标签页 test",
+  "name": "自动更新测试插件",
+  "description": "测试自动更新",
   "version": "1.0.2",
   "action": {
     "default_popup": "popup.html"
