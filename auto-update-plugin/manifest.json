@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "自动更新测试插件",
   "description": "测试自动更新",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "action": {
     "default_popup": "popup.html"
   },
@@ -15,5 +15,5 @@
   "background": {
     "service_worker": "background.js"
   },
-  "update_url": "https://github.com/wa815774/auto-update-chrome-plugin/blob/master/auto-update-server/extension-updates.xml"
+  "update_url": "https://auto-update-chrome-plugin.vercel.app/auto-update-server/extension-updates.xml"
 }
