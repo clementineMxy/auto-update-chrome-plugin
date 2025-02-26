@@ -4,7 +4,7 @@ const path = require('path');
 const ChromeExtension = require('crx');
 
 const crx = new ChromeExtension({
-    codebase: 'https://auto-update-chrome-plugin.vercel.app/auto-update-server/auto-update-plugin_5.0.1.crx',
+    codebase: 'https://auto-update-chrome-plugin.vercel.app/auto-update-server/auto-update-plugin_5.0.2.crx',
     privateKey: fs.readFileSync('./auto-update-server/auto-update-plugin.pem')
 });
 
