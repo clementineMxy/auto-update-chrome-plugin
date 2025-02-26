@@ -1,1 +1,1 @@
-console.log("js已注入，当前版本：5.0.4");
+console.log("js已注入，当前版本：5.0.6");
