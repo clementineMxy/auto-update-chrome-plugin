@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='eilgmgemikjlijfojhfechofnhgilpae'>
-    <updatecheck codebase='https://auto-update-chrome-plugin.vercel.app/auto-update-server/my-extension.crx' version='2.44.0' prodversionmin='88' />
+    <updatecheck codebase='https://auto-update-chrome-plugin.vercel.app/auto-update-server/my-extension.crx' version='2.45.0' prodversionmin='88' />
   </app>
 </gupdate>
