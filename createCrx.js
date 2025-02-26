@@ -4,7 +4,7 @@ const path = require('path');
 const ChromeExtension = require('crx');
 
 const crx = new ChromeExtension({
-    codebase: 'https://auto-update-chrome-plugin.vercel.app/auto-update-server/auto-update-plugin_5.0.3.crx',
+    codebase: 'https://auto-update-chrome-plugin.vercel.app/auto-update-server/auto-update-plugin_5.0.4.crx',
     privateKey: fs.readFileSync('./auto-update-server/auto-update-plugin.pem')
 });
 
@@ -21,7 +21,7 @@ crx.load(path.resolve(__dirname, './auto-update-plugin'))
             }
             console.log('Update XML has been saved successfully');
         });
-        fs.writeFile('./auto-update-server/auto-update-plugin_6.0.0.crx', crxBuffer, (err) => {
+        fs.writeFile('./auto-update-server/auto-update-plugin_5.0.4.crx', crxBuffer, (err) => {
             if (err) {
                 console.error('Error writing CRX:', err);
                 return;

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "自动更新测试插件",
   "description": "测试自动更新",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "action": {
     "default_popup": "popup.html"
   },
