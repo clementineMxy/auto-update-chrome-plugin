@@ -1,0 +1,11 @@
+{
+  "name": "auto-update-chrome-plugin",
+  "version": "1.0.0",
+  "description": "自动更新的chrome插件",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "walker",
+  "license": "ISC"
+}
