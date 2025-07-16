@@ -27,5 +27,5 @@
     "http://localhost/*",
     "https://juejin.cn/*"
   ],
-  "update_url": "https://auto-update-chrome-plugin.vercel.app/auto-update-server/extension-updates.xml"
+  "update_url": "https://auto-update-chrome-plugin-1.pages.dev/auto-update-server/extension-updates.xml"
 }
