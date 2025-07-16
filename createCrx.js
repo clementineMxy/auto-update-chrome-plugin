@@ -55,7 +55,7 @@ async function buildCrx() {
 
         // 创建 CRX 实例
         const extension = new crx({
-            codebase: `auto-update-chrome-plugin.pages.dev/auto-update-server/${config.crxName}`, // 自动更新地址（可选）
+            codebase: `https://auto-update-chrome-plugin-1.pages.dev/auto-update-server/${config.crxName}`, // 自动更新地址（可选）
             privateKey
         });
 
