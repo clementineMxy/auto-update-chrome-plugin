@@ -1,5 +1,5 @@
 // import './background2'
-console.log("插件已加载，当前版本：5.0.6");
+console.log("插件已加载，当前版本：5.0.0");
 
 
 /**

@@ -39,11 +39,11 @@ const crx = require('crx');
 // 配置参数
 const config = {
     srcDir: path.join(__dirname, './auto-update-plugin'),    // 扩展源代码目录
-    dstDir: path.join(__dirname, './auto-update-server'),   // 输出目录
+    dstDir: path.join(__dirname, './public/auto-update-server'),   // 输出目录
     // keyPath: path.join(__dirname, './auto-update-server/auto-update-plugin.pem'),  // 私钥文件（可选）
-    keyPath: path.join(__dirname, './auto-update-server/private_key.pem'),  // 私钥文件（可选）
-    updateXML: path.join(__dirname, './auto-update-server/extension-updates.xml'),  // 更新 XML 文件
-    crxName: 'my-extension.crx'                // 输出文件名
+    keyPath: path.join(__dirname, './public/auto-update-server/private_key.pem'),  // 私钥文件（可选）
+    updateXML: path.join(__dirname, './public/auto-update-server/extension-updates.xml'),  // 更新 XML 文件
+    crxName: 'test.crx'                // 输出文件名
 };
 
 async function buildCrx() {
