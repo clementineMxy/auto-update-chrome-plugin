@@ -1,0 +1,3 @@
+/auto-update-server/*.crx
+  Content-Type: application/x-chrome-extension
+  X-Content-Type-Options:
